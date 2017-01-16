@@ -1,2 +1,7 @@
 # travis_cowsay
-Minimal project that uses cowsay and is tested by Travis CI
+
+[![Travis CI logo](TravisCI.png)](https://travis-ci.org)
+
+[![Build Status](https://travis-ci.org/richelbilderbeek/travis_cowsay.svg?branch=master)](https://travis-ci.org/richelbilderbeek/travis_cowsay)
+
+Minimal project that uses `cowsay` and is tested by Travis CI
