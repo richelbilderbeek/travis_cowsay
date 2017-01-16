@@ -9,7 +9,8 @@ install:
   - sudo apt-get install cowsay
 
 script: 
-  - ./usr/games/cowsay "Howdy"
+  - export PATH=/usr/bin:/bin:/usr/games
+  - cowsay "Howdy"
   - cowsay "Howdy" | cowsay -n
   - cowsay "Howdy" | cowsay -n -f stegosaurus
 
