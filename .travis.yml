@@ -7,5 +7,9 @@ script:
   - export PATH=/usr/bin:/bin:/usr/games
   - cowsay "Howdy"
   - cowsay "Howdy" | cowsay -n
+  - cowsay "Howdy" | cowsay -n | cowsay -n
+  - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n | cowsay -n
+  - cowsay "Howdy" | cowsay -n | cowsay -n | cowsay -n | cowsay -n | cowsay -n
   - cowsay "Howdy" | cowsay -n -f stegosaurus
 
