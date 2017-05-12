@@ -1,4 +1,4 @@
-sudo: require
+dist: trusty
 
 install:
   - sudo apt-get install cowsay
